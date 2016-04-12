@@ -15,9 +15,8 @@ For Xampp installation you can refer to this link: http://ubuntuportal.com/2013/
 Once you are done with Xampp installation check it once by running localhost/index.php or localhost/phpmyadmin.
 
 Step-1: Download the project file from github and extract the zip file, move the transport-management-system folder to your system's /opt/lamp/htdocs folder.
-Step-2: In Xampp phpmyadmin create the database Bus_schedule, and export the database file from transport-management-system/database/Bus_schedule
+Step-2: In Xampp phpmyadmin create the database Bus_schedule, and import the database file from transport-management-system/Bus_schedule.sql
 this will give you all the databases tables which we used for the project under Bus_schedule database.
-tables will be: 
 
-Step-3: Check include/Config.php file once , if all your congiguration matches with this. Change password if you gave any password to your root user.
+Step-3: Check include/Config.php file once , if all your configuration matches with this. Change password if you gave any password to your root user.
 Step-4: After all this setup done, run localhost/frontend/login.html.
